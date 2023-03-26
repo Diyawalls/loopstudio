@@ -8,27 +8,38 @@
     <title>loops</title>
 </head>
 <body>
-     
+    
     
     <header>
-        <nav>
-            <img src="./images/logo.svg"class="log">
-            <!--
-            <ul class="ull">
-                <li>
-                    About</li>
-                  <li>  Careers</li>
-                   <li> Events</li>
-                   <li> Products</li>
-                   <li> Support</li>
-                -->
-                
-                <div class="box">
-                    <img src="./images/icon-hamburger.svg">
-                </div>
-</ul>
+        <div class="navbar">
+            <div class="navbar-brand">
+            <img src="./images/logo.svg" class="log">
+            </div>
 
+         
+
+       <nav class="navbar-nav">
+
+        <div class="mobile-nav-brand">
+            <a href="#"><img src="./images/logo.svg"></a>
+            <div class="close-btn" id="close-btn">
+                <img src="./images/icon-close.svg">
+            </div>
+        </div>
+             <ul class="ull">
+                <li><a href="#">About</a> </li>
+                <li><a href="#">Careers</a> </li>
+                <li><a href="#">Event</a> </li>
+                <li><a href="#">Product</a> </li>
+                <li><a href="#">Support</a></li>
+             </ul>
+       
 </nav>
+
+<div class= "nav-toggler" id="open-btn">
+    <img src="./images/icon-hamburger.svg" alt="">
+   </div>
+   </div>
     
 <div class="eat">
     <div class="class">
@@ -61,7 +72,7 @@
               
        <h1>OUR CREATIONS</h1>
 
-        <!-- <button>SEE ALL</button>-->
+         <button class="buttin">SEE ALL</button>
 </div>
             </div>
             
@@ -174,11 +185,11 @@
            </ul>
 </section>
 
-
+<!--
 
 <button class="btn">
     SEE ALL
-</button>
+</button>-->
          <footer>
             <img src="./images/logo.svg" class="footer-logo">
 
@@ -227,5 +238,6 @@
          </footer>
          
         </div>
+        <script src="index.js"></script>
 </body>
 </html>
